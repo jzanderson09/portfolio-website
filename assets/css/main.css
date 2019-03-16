@@ -172,6 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -675,13 +676,20 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: flex;
+			justify-content: center;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 62%;
+				height: 42%;
+				opacity: .7;
+			}
+
+			.image.main img:hover {
+				opacity: 1.0;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1135,7 +1143,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/Spearfish-Canyon.jpg");
+			opacity: .7;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
