@@ -699,7 +699,14 @@ input, select, textarea {
 		}
 
 		.work-image img {
-			width: 100%;
+			width: 70%;
+			border-radius: 20px;
+			opacity: .7;
+			margin-left: 10%;
+		}
+
+		.work-image img:hover {
+			opacity: 1;
 		}
 
 		@media screen and (max-width: 736px) {
