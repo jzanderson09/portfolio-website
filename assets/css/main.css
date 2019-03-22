@@ -682,7 +682,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.main img {
+			.image.main {
 				width: 62%;
 				height: 42%;
 				opacity: .7;
@@ -691,6 +691,16 @@ input, select, textarea {
 			.image.main img:hover {
 				opacity: 1.0;
 			}
+
+		.work-image {
+			width: 50%;
+			height: 50%;
+			align-items: center;
+		}
+
+		.work-image img {
+			width: 100%;
+		}
 
 		@media screen and (max-width: 736px) {
 
